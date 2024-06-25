@@ -1,17 +1,16 @@
 .contenedor-testimonio{
-    width: 1170px;
+    width: 80%;
     height: 368px;
     margin: 10px 10px 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
+
 }
 
 .imagen-testimonio{
-    height: 100%;
-    width: auto;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);    
 }
@@ -33,4 +32,10 @@
     font-size: 1.3em;
     margin-top: 15px;
     padding-bottom: 30px;
+}
+
+@media ( max-width: 768px){
+    .imagen-testimonio{
+        width: 40%;
+    }
 }
